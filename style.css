@@ -13,8 +13,19 @@ h1 {
     text-decoration: underline;
 }
 
-.articles {
+.box {
     text-align: center;
+}
+
+.bx {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 0px 8px #000000;
 }
 
 .ar {
@@ -25,4 +36,11 @@ h1 {
     margin: 20px;
     vertical-align: middle;
     box-shadow: 0px 0px 8px #000000;
+}
+
+code {
+    background-color: #242424;
+    border-radius: 5px;
+    padding: 2px;
+    color: #ebebeb;
 }
