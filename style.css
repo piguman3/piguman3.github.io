@@ -9,6 +9,18 @@ body {
     font-family: 'Consolas';
 }
 
+.dark-mode {
+    background-color: #363636;
+    color: #fafafa;
+}
+
+a {color:#006eff;}      
+a:link {color:#006eff;}      /* unvisited link */
+a:visited {color:#006eff;}  /* visited link */
+a:hover {color:#006eff;}  /* mouse over link */
+a:focus {color:#006eff;}
+a:active {color: #006eff;}  /* selected link */
+
 h1 {
     text-decoration: underline;
 }
