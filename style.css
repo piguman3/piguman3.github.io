@@ -1,4 +1,7 @@
 body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     margin: 40px auto;
     max-width: 900px;
     line-height: 1.4;
@@ -30,8 +33,9 @@ h1 {
 }
 
 .bx {
+    flex-grow: 1;
     position: relative;
-    display: inline-block;
+    display: flex;
     margin: 20px;
     vertical-align: middle;
     overflow: hidden;
@@ -41,8 +45,11 @@ h1 {
 }
 
 .ar {
+    flex-grow: 1;
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     width: 300px;
     height: 300px;
     margin: 20px;
