@@ -1,7 +1,7 @@
 let darkMode = localStorage.getItem("dark-mode");
 var element = document.body;
-if (darkMode == "enabled") {
-    element.classList.add("dark-mode");
+if (darkMode == "disabled") {
+    element.classList.remove("dark-mode");
 }
 
 function toggleDarkMode() {
