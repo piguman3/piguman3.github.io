@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 40px auto;
@@ -30,12 +31,14 @@ h1 {
 
 .box {
     text-align: center;
+    position: relative;
+    display: inline-block;
 }
 
 .bx {
-    flex-grow: 1;
+    flex-grow: 0;
     position: relative;
-    display: flex;
+    display: inline-block;
     margin: 20px;
     vertical-align: middle;
     overflow: hidden;
@@ -45,7 +48,6 @@ h1 {
 }
 
 .ar {
-    flex-grow: 1;
     position: relative;
     display: inline-flex;
     flex-direction: column;
