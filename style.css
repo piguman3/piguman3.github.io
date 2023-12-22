@@ -48,14 +48,25 @@ h1 {
 }
 
 .ar {
+    line-height: 1;
     position: relative;
     display: inline-flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 300px;
+    width: 200px;
     height: 300px;
     margin: 20px;
+    border-radius: 15px;
     vertical-align: middle;
+    box-shadow: 0px 0px 8px #000000;
+}
+
+.image {
+    display: inline-flex;
+    margin: 20px;
+    vertical-align: middle;
+    overflow: hidden;
+    border-radius: 5px;
     box-shadow: 0px 0px 8px #000000;
 }
 
